@@ -1,13 +1,89 @@
 body {
-    background-color: aquamarine;
-    text-align: center;
+    background-color: wheat;
+}
+
+header {
+    background-color: black;
+    height: 3em;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 5;
 }
 
 footer {
-    margin-top: 350px; 
+    background-color: black;
+    height: 3em;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    right: 0;     
 }
 
-p {
-    margin-top: 350px;
-    font-size: 25;
+footer p {
+    color: white;
+    margin-top: 1em;
+    font-size: 15;
+    text-align: center;
+}
+
+
+.white-div-bellow-header {
+    background-color: white;
+    height: 5.7em;
+    width: 100%;
+    position: absolute;
+    top: 5%;
+    left: 0;
+    border: solid 2px black;
+    text-align: center;
+}
+
+.left-div-with-advertising {
+    float: left;
+    position: absolute;
+    height: 660px;
+    width: 159px;
+    background-color: gray;
+    left: 0;
+    top: 140px;
+    border: solid 2px black ;
+}
+
+.right-div-with-advertising {
+    float: right;
+    position: absolute;
+    height: 660px;
+    width: 159px;
+    background-color: gray;
+    right: 0;
+    top: 140px;
+    border: solid 2px black ;
+}
+
+.center-div-with-text {
+   margin-top: 200px;
+   margin-left: 200px;
+   margin-right: 200px;
+   height: 100%;
+   border: solid 1px gray;
+   background-color: white;
+   padding: 2em;
+   font-family: 'Rubik', sans-serif;
+   text-align: center;
+}
+
+#header-image {
+    margin-left: 3em;
+    float: left;
+}
+
+header p {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+.white-div-bellow-header h1 {
+    font-family: 'Oswald', sans-serif;
 }
