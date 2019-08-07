@@ -45,28 +45,31 @@ footer p {
 .left-div-with-advertising {
     float: left;
     position: absolute;
-    background-color: gray;
     left: 0;
     top: 95px;
-    border: solid 2px black ;
+    height: 100%;
+    width: 8%;
+    background-image: url(https://tpc.googlesyndication.com/simgad/17889747006454120098);
 }
 
 .right-div-with-advertising {
     float: right;
     position: absolute;
-    background-color: gray;
     right: 0;
     top: 95px;
-    border: solid 2px black ;
+    height: 100%;
+    width: 8%;
+    background-image: url(https://tpc.googlesyndication.com/simgad/17889747006454120098);
 }
 
 .center-div-with-text {
-   margin: 5em 10em;
+   margin: 5em 8em;
    min-height: 10em;
    background-color: white;
    padding: 2em;
    font-family: 'Rubik', sans-serif;
    text-align: center;
+   height: 100%;
 }
 
 #header-image {
